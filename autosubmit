@@ -2,10 +2,11 @@
 
 set -e
 
+cd "$(dirname "$(readlink -f "$0")")"
+
 main() {
     echo
     date --utc +'-------------------- %a, %0e %b %Y %H:%M:%S %z --------------------'
-    cd "$(dirname "$(readlink -f "$0")")"
     ./autosubmit.py
 }
 
