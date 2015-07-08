@@ -10,7 +10,7 @@ import sys
 import time
 
 
-USER_AGENT = 'Automatic submitter script for /u/lfairy'
+USER_AGENT = 'autosubmit login <https://github.com/lfairy/autosubmit>'
 
 FILE = 'queue.json'
 
@@ -82,7 +82,7 @@ def main():
             return
 
         output('Loaded {} entries; logging in'.format(len(queue)))
-        r.login()
+        r.refresh_access_information()
 
         count = 0
         first = True
