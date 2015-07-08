@@ -2,5 +2,6 @@
 __pycache__/
 env/
 
+autosubmit.log
 praw.ini
 queue.json
