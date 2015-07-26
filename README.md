@@ -4,7 +4,7 @@
 
         $ pyvenv-3.4 --without-pip env
         $ source env/bin/activate.fish
-        $ curl https://bootstrap.pypa.io/get-pip.py | python-3.4
+        $ curl https://bootstrap.pypa.io/get-pip.py | python3.4
         $ deactivate
         $ source env/bin/activate.fish
 
