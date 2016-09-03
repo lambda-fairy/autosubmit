@@ -26,6 +26,6 @@
 
 4. Add cron job
 
-        $ sudo vi /etc/crontab
+        $ sudo -e /etc/crontab
 
 5. Party
